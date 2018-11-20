@@ -1,0 +1,78 @@
+div.table {
+    display:table;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+div.tr,form.tr{
+    display:table-row;
+}
+div.td{
+    display:table-cell;
+    vertical-align: top;
+    border: 1px solid #c7c7c7;
+    border-right: none;
+    border-bottom: none;
+}
+
+div.table .th .td{
+    font-weight:bold;
+}
+div.table .td{
+    padding: 2px !important;
+    font-size: 12px;
+    vertical-align: middle;
+}
+div.table .tr:hover{
+    background-color: #FFF7D1;
+}
+div.table .tr:hover input,
+div.table .tr:hover select{
+    background-color: transparent !important;
+    box-shadow: inset 0px 0px 0px 20px transparent;
+}
+div.table div.td select,
+div.table div.td input{
+    display: block;
+    width: 100%;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow:inset 0px 0px 0px 20px #FFF;
+    border: 1px solid #FFF;
+    padding: 2px;
+    color: #555 !important;
+}
+div.table-users{
+    overflow: auto;
+}
+div.table div.td input:focus{
+    border: 1px solid #46b8da;
+    box-shadow:0px 0px 5px 0px #46b8da, inset 0px 0px 0px 20px #FFF;
+}
+div.table .team-lead-select{
+    width: 100px;
+}
+div.table .deactivated {
+    background-color: #FFE4E3 !important;
+    opacity: 0.5;
+}
+div.table .deactivated select,
+div.table .deactivated input{
+    border: 1px solid transparent !important;
+    background-color: transparent !important;
+    box-shadow: inset 0px 0px 0px 20px transparent !important;
+}
+div.table .btn-triger{
+    width: 134px;
+}
+
+textarea.email-add{
+    background-color: #FFF !important;
+    height: 34px;
+    resize:vertical;
+}
+.table-bordered .label{ font-size: 10px;}
+.main-email-content{
+    overflow: auto;
+    max-height: 400px;
+    margin-bottom: 15px;
+}
